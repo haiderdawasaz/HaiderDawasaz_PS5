@@ -12,7 +12,7 @@ Manage Tab: Easily choose to edit or delete a specific product.
 
 ## Technologies Used
 
-Frontend - HTML, CSS
+Frontend - HTML, CSS, AngularJS
 Backend - PHP, MySQL
 
 ## Getting Started
