@@ -1,0 +1,35 @@
+<!DOCTYPE html5>
+<html>
+    <head>
+        <title>ProductListingSystem</title>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.8.2/angular-route.js"></script>
+        <script src="../JS Files/index.js"></script>
+        <script src="../JS Files/add.js"></script>
+        <script src="../PHP Files/addProd.php"></script>
+        <script src="../PHP Files/viewProd.php"></script>
+        <link rel="stylesheet" href="../CSS Files/index.css">
+        <link rel="stylesheet" href="../CSS Files/add.css">
+        <link rel="stylesheet" href="../CSS Files/view.css">
+        <link rel="stylesheet" href="../CSS Files/manage.css">
+    </head>
+    <body ng-app="mainApp">
+        <div class="topnav">
+            <div class="menu-icon">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+            <p>Welcome Farmer Name!!</p>
+        </div>
+            <div class="product-modify">
+                <a href="#!/add">Add</a>
+                <a href="#!/view">View</a>
+                <a href="#!/manage">Manage</a>
+            </div>
+            <div>
+                <ng-view></ng-view>
+            </div>
+    </body>
+    
+</html>

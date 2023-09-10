@@ -1,0 +1,27 @@
+.update{
+    display: flex;
+    margin: 3% 30%;
+    font-size: 1.4vw;
+    justify-content: space-evenly;
+    border: 2px solid black;
+    padding: 3% 0;
+    border-radius: 40px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    justify-content: space-evenly;
+}
+
+.update input{
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.update label{
+    padding: 20px 0px;
+}
+
+.update button{
+    padding: 15px;
+    background-color: rgb(210, 248, 246);
+    border-radius: 20px;
+    font-size: 1.2vw;
+}
